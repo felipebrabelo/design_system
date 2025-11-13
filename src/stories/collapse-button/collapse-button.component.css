@@ -1,0 +1,13 @@
+.collapse-button {
+  display: inline-flex;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.collapse-button__svg {
+  display: block;
+  width: 189px;
+  height: 38px;
+}

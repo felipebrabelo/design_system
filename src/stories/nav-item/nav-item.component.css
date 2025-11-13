@@ -1,0 +1,20 @@
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 5px;
+  gap: 4px;
+
+  width: 112px;
+  height: 38px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-item__svg {
+  width: 112px;
+  height: 38px;
+  display: block;
+}
