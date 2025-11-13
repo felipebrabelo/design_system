@@ -1,0 +1,24 @@
+/* "microphone" do Figma */
+.microphone-button {
+  margin: 0 auto;
+  width: 31px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent; /* só o ícone, sem fundo extra */
+  border: none;
+  cursor: pointer;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.microphone-button__icon {
+  width: 31px;
+  height: 32px;
+  display: block;
+}

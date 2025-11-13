@@ -1,0 +1,24 @@
+.nav-item-08 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 5px;
+  gap: 4px;
+
+  width: 189px;
+  height: 38px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.nav-item-08__svg {
+  width: 189px;
+  height: 38px;
+  display: block;
+}

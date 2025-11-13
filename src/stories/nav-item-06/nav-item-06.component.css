@@ -1,0 +1,38 @@
+:host {
+  display: block;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 5px;
+  gap: 4px;
+  width: 189px;
+  height: 38px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-item__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+}
+
+.nav-item__icon-svg {
+  width: 18px;
+  height: 18px;
+}
+
+.nav-item__label {
+  margin-left: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #432e65;
+}
